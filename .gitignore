@@ -1,0 +1,42 @@
+# =========================
+# ChemSimLab - .gitignore
+# =========================
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE config
+.idea/
+.vscode/
+*.iml
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Frontend (Vite/React)
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Backend (Maven/Spring Boot)
+target/
+# keep Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/*.properties
+.mvn/wrapper/*.jar
+spring.log
+
+# Coverage / reports
+coverage/
+report/
+
+# TraeAI workspace artifacts
+.trae/
